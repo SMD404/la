@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <meta name="description">
+  <link href="./assets/css/app.css" rel="stylesheet"></head>
+  <body>
+    <div class="wrapper">
+      <div id="app">
+<header></header>
+        <div class="content-wrapper">
+          <section class="top">
+            <div class="container">
+              <div class="content"></div>
+              <div class="title">Язык блок-схем</div>
+              <div class="content-list">Оглавление
+                <ol>
+                  <li class="content-list__item"><a href="#p-1">Что такое блок-схема</a></li>
+                  <li class="content-list__item"><a href="#p-2">Обозначения на блок схеме</a></li>
+                </ol>
+              </div>
+              <div class="content-text"> 
+
+    <p>Алгоритм можно описать разными способами: словами, на языке программирования, а также с помощью блок-схем.</p>
+    <p id="p-1">На языке блок-схем каждый шаг алгоритма описывается с помощью соответствующей фигуры, а последовательность выполнения шагов определяется линиями-связями. Блок схемы читаются сверху вниз и слева направо.</p>
+    <p>Блок-схемы полезны тем, что обеспечивают легкую «читаемость» алгоритма. Однако это не всегда так: стоит попытаться нарисовать блок-схему для более-менее сложного алгоритма, как она разрастается до невероятных размеров и теряет все свое наглядное преимущество. Поэтому блок-схемы хороши в структурном программировании для описания коротких алгоритмов.
+    <br>
+    <br>
+    <b>Язык блок-схем прост (хотя существуют его расширенные варианты):</b>
+    <br>
+    <br> </p>
+
+    <ul><li>Прямоугольник – выполнение действия (например, c = a + b)</li>
+    	<li>Ромб – проверка условия (например, a &gt; b). Если условие выполняется, то алгоритм идет по линии «да», если не выполняется – то по линии «нет».</li>
+    	<li>Скругленный прямоугольник – начало и конец алгоритма</li>
+    	<li>Скошенный прямоугольник – ввод-вывод данных (например, получение значения переменной, вывод результата на экран монитора).<br>
+      Это не полное описание языка блок-схем.</li>
+      <div id="p-2" class="content-text__img">
+        <img src="./assets/img/scheme.png" alt="">
+      </div>
+    </ul>
+              </div>
+              <div class="question" id="p-5">
+                <div class="title question__title">Тестовые задания</div>
+                <div class="question-container">
+                  <p class="question__theme">Тест на тему: <span id="tema"></span></p>
+                  <div id="vopros1" style="display:block;">
+                    <p class="question__number">Вопрос 1</p>
+                    <p class="question__text"><span id="v_1"></span>
+                      <input class="question__input" id="z_1" type="text">
+                    </p>
+                  </div>
+                  <div id="vopros2" style="display:none;">
+                    <p class="question__number">Вопрос 2</p>
+                    <p class="question__text"><span id="v_2"></span>
+                      <input class="question__input" id="z_2" type="text">
+                    </p>
+                  </div>
+                  <div id="vopros3" style="display:none;">
+                    <p class="question__number">Вопрос 3</p>
+                    <p class="question__text"><span id="v_3"></span>
+                      <input class="question__input" id="z_3" type="text">
+                    </p>
+                  </div>
+                </div>
+                <div class="button" id="button-next">Следующий вопрос</div>
+                <div class="button" id="button-verify" style="display:none;">Проверить</div>
+                <div id="rezultat"></div>
+              </div>
+              <div class="button-list">
+                <a class="button" href="./index.html">Перейти к углубленному изучению темы</a>
+                <a class="button" href="./index.html">Вернуться на главную</a>
+                <a class="button" href="./index.html">Полезные ссылки</a></div>
+            </div>
+          </section>
+          <section class="bg-purple">
+            <div class="container">
+              <div class="footer">
+                <div class="footer__text">Разработано студентом ГГТУ Сапицыным Михаилом Дмитриевичем </div>
+                <div class="footer__year">2020 год</div>
+              </div>
+            </div>
+          </section>
+        </div>
+<footer></footer>
+      </div>
+    </div>
+    <script type="text/javascript"></script>
+  <script type="text/javascript" src="./assets/js/vendors.js"></script><script type="text/javascript" src="./assets/js/app2.js"></script></body>
+</html>
